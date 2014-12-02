@@ -46,12 +46,13 @@ a.nav-link.active {
 
 .model {
   padding: 40px;
-  background: aliceblue;
+  background: #CCE7FF;
   text-align: center;
   width: 150px;
   float: left;
   margin-right: 40px;
-  font-size:30px
+  font-size:30px;
+  border-radius: 14px;
 }
 
 .if, .with {
@@ -71,6 +72,7 @@ label {
 }
 
 .status {
+  float:left;
   font-size: 50px;
   padding: 20px;
   margin: 10px;
@@ -82,6 +84,7 @@ label {
 }
 
 .is-happy {
+  float:left;
   font-size: 50px;
   padding: 20px;
   margin: 10px;
