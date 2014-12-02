@@ -1,3 +1,129 @@
 html, body {
   margin: 20px;
 }
+
+header {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 35px;
+  font-size: 30px;
+}
+
+a.nav-link {
+  font-size: 80%;
+  margin: 0 0 0 4px;
+  padding: 9px 10px;
+  background: #eee;
+}
+
+a.nav-link.active {
+  color: white;
+  background: #666;
+}
+
+.first {
+  height: 400px;
+  width: 600px;
+  background: #CCCCFF;
+  padding: 1em 2em;
+}
+
+.second {
+  height: 400px;
+  width: 600px;
+  background: #CCFFCC;
+  padding: 1em 2em;
+}
+
+.third {
+  height: 400px;
+  width: 600px;
+  background: #FFCCCC;
+  padding: 1em 2em;
+}
+
+.model {
+  padding: 40px;
+  background: aliceblue;
+  text-align: center;
+  width: 150px;
+  float: left;
+  margin-right: 40px;
+  font-size:30px
+}
+
+.if, .with {
+  padding: 30px 0;
+}
+
+.with button {
+  float: left;
+  margin: 30px 50px 0 20px;
+}
+
+label {
+  font-size: 30px;
+  float: left;
+  width: 160px;
+  margin: 30px 50px;
+}
+
+.status {
+  font-size: 50px;
+  padding: 20px;
+  margin: 10px;
+  background: lightblue;
+  color: blue;
+  width: 270px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.is-happy {
+  font-size: 50px;
+  padding: 20px;
+  margin: 10px;
+  background: lightcoral;
+  color: gold;
+  width: 270px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+input.regular-checkbox {
+  -webkit-appearance: none;
+  background-color: #fafafa;
+  border: 1px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+input.regular-checkbox:active, input.regular-checkbox:checked:active {
+			    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+			  }
+
+input.regular-checkbox:checked {
+  background-color: #e9ecee;
+  border: 1px solid #adb8c0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+  color: #99a1a7;
+}
+
+input.regular-checkbox:checked:after {
+  content: '\2714';
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: #99a1a7;
+}
+
+p.info {
+  font-size: 30px;
+  padding-top: 20px;
+}

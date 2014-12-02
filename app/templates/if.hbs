@@ -1,0 +1,9 @@
+<div class="if">
+  <label>Happy? {{input type="checkbox" name="isHappy" checked=isHappy class="regular-checkbox"}}</label>
+
+  {{#liquid-if isHappy class="happiness"}}
+    <div class="is-happy">Yay!</div>
+  {{else}}
+    <div class="status">Bummer</div>
+  {{/liquid-if}}
+</div>

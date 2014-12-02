@@ -1,0 +1,6 @@
+<div class="with">
+  <button {{action "next"}}>next</button>
+  {{#liquid-with currentModel as o use="rotateBelow" class="model"}}
+  {{o.name}}
+  {{/liquid-with}}
+</div>

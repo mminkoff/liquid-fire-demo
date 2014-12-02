@@ -1,3 +1,12 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<header>
+  <h2 id='title'>{{#link-to 'index'}}Liquid Fire demo{{/link-to}}
+  {{link-to 'First' "first" class="nav-link"}}
+  {{link-to 'Second' "second" class="nav-link"}}
+  {{link-to "Third" "third" class="nav-link"}}
+  {{link-to "With" "with" class="nav-link"}}
+  {{link-to "If" "if" class="nav-link"}}
+  </h2>
+</header>
 
-{{outlet}}
+{{!outlet}}
+{{liquid-outlet}}

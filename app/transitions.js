@@ -1,0 +1,29 @@
+export default function(){
+  this.transition(
+    this.toRoute('first'),
+    this.use('toLeft')
+  );
+  this.transition(
+    this.toRoute('second'),
+    this.use('toRight')
+  );
+  this.transition(
+    this.toRoute('third'),
+    this.use('crossFade')
+  );
+  this.transition(
+    this.toRoute('with'),
+    this.use('toUp')
+  );
+  this.transition(
+    this.toRoute('if'),
+    this.fromRoute(function() {return this != 'if'}),
+    this.use('toDown')
+  );
+  this.transition(
+    this.hasClass("happiness"),
+    this.toModel(true),
+    this.use('swapUp'),
+    this.reverse('swapDown')
+  );
+}
